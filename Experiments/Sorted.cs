@@ -1,10 +1,7 @@
-using System.Diagnostics.CodeAnalysis;
 using BenchmarkDotNet.Attributes;
 
-namespace JuniorMeetup.Demo.Experiments;
+namespace DemoProject.Experiments;
 
-[SuppressMessage("ReSharper", "ClassCanBeSealed.Global")]
-[SuppressMessage("ReSharper", "ReturnValueOfPureMethodIsNotUsed")]
 public static class Sorted
 {
 	[MemoryDiagnoser]
